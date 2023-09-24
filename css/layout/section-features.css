@@ -1,0 +1,109 @@
+.features-item-icon {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .features-list-item {
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+    text-align: center;
+  }
+  .features-list {
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+  
+    margin-top: 72px;
+    margin-bottom: 72px;
+    padding-left: 0;
+    margin-left: 16px;
+  }
+  .features-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    padding-top: 8px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1157px) {
+  .features-list-item {
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+  }
+  .features-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 72px 24px;
+    
+    margin-bottom: 72px;
+    padding-left: 0;
+  }
+  .features-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    padding-top: 8px;
+  }
+  .features-item {
+    flex-basis: calc((100% - 72px) / 2);
+  }
+}
+
+
+@media (min-width: 1157px) {
+  .features-item-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    border: 1px solid #8E8F99;
+  }
+    .features-list-item {
+      font-size: 20px;
+      font-weight: 500;
+      letter-spacing: 0.02em;
+      line-height: 1.2;
+      color: #2e2f42;
+    margin-bottom: 8px;
+    }
+  
+  .features-title {
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    line-height: 1.2;
+    color: #2e2f42;
+    display: none;
+    visibility: hidden;
+  }
+  
+  
+  .strategy-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+  }
+  .features-list {
+    display: flex;
+    gap: 24px;
+  
+    margin: 0;
+    padding-left: 0;
+  }
+  .features-item {
+    flex-basis: calc((100% - 3 * 24px) / 4);
+  }
+}
+
+
