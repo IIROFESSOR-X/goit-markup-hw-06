@@ -13,7 +13,12 @@
   
   @media (min-width: 768px) {
     .container {
-      width: 736px;
+      width: 768px;
+      
+    }
+    .section {
+      padding-top: 96px;
+      padding-bottom: 96px;
     }
   }
   

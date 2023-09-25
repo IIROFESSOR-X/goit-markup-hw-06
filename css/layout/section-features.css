@@ -2,7 +2,7 @@
   display: none;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .features-list-item {
     font-size: 36px;
     font-style: normal;
@@ -17,10 +17,7 @@
     flex-direction: column;
     gap: 72px;
   
-    margin-top: 72px;
-    margin-bottom: 72px;
     padding-left: 0;
-    margin-left: 16px;
   }
   .features-text {
     line-height: 1.5;
@@ -42,9 +39,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 72px 24px;
+    gap: 24px;
     
-    margin-bottom: 72px;
     padding-left: 0;
   }
   .features-text {
@@ -58,7 +54,7 @@
 }
 
 
-@media (min-width: 1157px) {
+@media (min-width: 1158px) {
   .features-item-icon {
     display: flex;
     align-items: center;
@@ -87,13 +83,14 @@
     display: none;
     visibility: hidden;
   }
-  
-  
-  .strategy-text {
+  .features-text {
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    padding-top: 8px;
   }
+  
+  
+  
   .features-list {
     display: flex;
     gap: 24px;
