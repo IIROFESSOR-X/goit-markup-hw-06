@@ -6,7 +6,7 @@
   .features-list-item {
     font-size: 36px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 500;
     line-height: 40px;
     letter-spacing: 0.72px;
     text-transform: capitalize;
@@ -22,7 +22,7 @@
   .features-text {
     line-height: 1.5;
     letter-spacing: 0.02em;
-    padding-top: 8px;
+    
   }
 }
 
@@ -30,7 +30,7 @@
   .features-list-item {
     font-size: 36px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 500;
     line-height: 40px;
     letter-spacing: 0.72px;
     text-transform: capitalize;
@@ -39,17 +39,17 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 24px;
+    gap: 72px 24px;
     
     padding-left: 0;
   }
   .features-text {
     line-height: 1.5;
     letter-spacing: 0.02em;
-    padding-top: 8px;
+    margin-top: 8px;
   }
   .features-item {
-    flex-basis: calc((100% - 72px) / 2);
+    flex-basis: calc((100% - 24px) / 2);
   }
 }
 
@@ -86,7 +86,7 @@
   .features-text {
     line-height: 1.5;
     letter-spacing: 0.02em;
-    padding-top: 8px;
+    
   }
   
   
