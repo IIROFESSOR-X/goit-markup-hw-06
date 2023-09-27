@@ -6,7 +6,7 @@
   .features-list-item {
     font-size: 36px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 700;
     line-height: 40px;
     letter-spacing: 0.72px;
     text-transform: capitalize;
@@ -23,6 +23,7 @@
   .features-text {
     line-height: 1.5;
     letter-spacing: 0.02em;
+    font-weight: 500;
     
   }
 }
@@ -31,7 +32,7 @@
   .features-list-item {
     font-size: 36px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 700;
     line-height: 40px;
     letter-spacing: 0.72px;
     text-transform: capitalize;
@@ -48,6 +49,7 @@
   .features-text {
     line-height: 1.5;
     letter-spacing: 0.02em;
+    font-weight: 500;
     
   }
   .features-item {

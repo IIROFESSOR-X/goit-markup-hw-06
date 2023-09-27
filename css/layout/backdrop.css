@@ -236,7 +236,7 @@
   visibility: visible;
   pointer-events: auto;
 }
-@media (min-width: 678px) {
+@media (min-width: 768px) {
   .modal-window {
     width: 408px;
   }

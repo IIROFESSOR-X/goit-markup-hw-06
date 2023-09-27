@@ -33,7 +33,6 @@
   padding-right: 24px;
   padding-bottom: 40px;
   padding-left: 16px;
-  pointer-events: none;
   }
 
 .mobile-menu.is-open {
@@ -99,7 +98,7 @@
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  padding-bottom: 24px;
+  margin-bottom: 24px;
   font-style: normal;
 }
 .mobile-menu-soc {

@@ -1,4 +1,4 @@
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .link-nav {
     display: none;
   }
@@ -46,7 +46,7 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
-    margin-right: 76px;
+    margin-right: 120px;
   }
 
   .nav {
@@ -179,7 +179,7 @@
 } */
  
 
-@media (min-width: 1157px) {
+@media (min-width: 1158px) {
   .logo {
     color: #4d5ae5;
     font-family: "Raleway", sans-serif;
